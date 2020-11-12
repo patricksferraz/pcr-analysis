@@ -16,4 +16,12 @@ pip install -r requirements.txt
 jupyter-lab
 ```
 
-_Ps: to render pandas profiling in jupyter you need to have nodejs version> = 10 and execute the command `jupyter labextension install @jupyter-widgets/jupyterlab-manager`_
+_Ps: to render pandas profiling|plotly in jupyter you need to have nodejs version> = 10 and execute the commands:_
+
+```sh
+# Basic JupyterLab renderer support
+jupyter labextension install jupyterlab-plotly@4.12.0
+
+# OPTIONAL: Jupyter widgets extension for FigureWidget support
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.12.0
+```
