@@ -1,0 +1,4 @@
+Classes,F1,ROC AUC,PRC AUC,Precision,Recall,Specificity,Accuracy
+N-Covid,0.46,0.44,0.91,0.89,0.31,0.58,0.33
+Covid,0.12,0.44,0.07,0.07,0.58,0.31,0.33
+Média,0.29,0.44,0.49,0.48,0.44,0.44,0.33
